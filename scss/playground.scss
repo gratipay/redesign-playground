@@ -1,17 +1,20 @@
-$green: #2A8F79;
-$brown: #614C3E;
+$green: #339966;
+$brown: #AB4926;
 $white: #FFFFFF;
 $gold: #FFC300;
 $gray: #515151;
 $light-gray: #D7D7D7;
 
+$font: "Whitney SSm A", "Whitney SSm B", serif;
+
 body {
-    font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", serif;
+    font-family: $font;
     font-weight: 200;
+    font-size: 16px;
+    line-height: 100%;
 }
 
 section {
-    padding: 20px;
 }
 
 a {
@@ -25,8 +28,9 @@ button {
     color: $green;
     border-radius: 4px;
     background: white;
-    font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", serif;
+    font-family: $font;
     font-size: 16px;
+    font-weight: 500; 
     padding: 9px 20px;
     margin: 0;
 
@@ -45,33 +49,39 @@ button {
         display: block;
         max-width: 1000px;
         margin: 0 auto;
+        line-height: 100px;
     }
 
     li {
-        float: left;
+        display: inline;
         list-style: none;
         padding-right: 30px;
-        line-height: 48px;
+        font-size: 14px;
         color: $gray;
-
-        img {
-            height: 48px;
-            display: inline;
-        }
 
         a {
             color: $gray;
+            letter-spacing: -1px;
+        }
+
+        &:first-child a {
+            font-size: 27px;
+            font-weight: 700;
+            color: black;
+            background: url("/assets/heart-coin.svg") left center no-repeat;
+            background-size: 27px;
+            padding-left: 32px;
+            padding-right: 30px;
         }
 
         &:last-child {
             float: right;
-            padding-right: 100px;
         }
     }
 }
 
 .splash {
-    background: url("/assets/texture.jpg") no-repeat center;
+    ackground: url("/assets/texture.jpg") no-repeat center;
     clear: both;
     text-align: center;
     padding-top: 100px;
@@ -81,50 +91,57 @@ button {
     border-style: solid none;
 
     .every-week {
-        font-size: 48px;
+        font-size: 42px;
         margin-bottom: 48px;
-    }
-
-    .inspiring {
-        font-size: 24px;
+        letter-spacing: -1px;
     }
 
     button {
         font-size: 30px;
         border-radius: 6px;
         border-width: 3px;
-        padding: 14px 24px;
-
-        &.receive {
-            border-color: $brown;
-            background: $brown;
-            color: $gold;
-
-            &:hover {
-                background: $gold;
-                color: $brown;
-            }
-        }
+        padding: 14px 28px;
+        letter-spacing: -1px;
 
         &.give {
-            background: $green;
+            border-color: $brown;
+            background: $brown;
             color: $white;
             cursor: pointer;
-            margin-left: 30px;
 
             &:hover {
                 background: $white;
-                color: $green;
+                color: $brown;
                 cursor: pointer;
+            }
+        }
+
+        &.receive {
+            border-color: $green;
+            background: $white;
+            color: $green;
+            margin-left: 20px;
+
+            &:hover {
+                background: $green;
+                color: $white;
             }
         }
     }
 }
 
 .stats {
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     border-bottom: 1px solid $light-gray;
+    font-size: 16px;
+    color: $gray;
+
+    .star {
+        font-size: 22px;
+        position: relative;
+        bottom: -1px;
+    }
 }
 
 

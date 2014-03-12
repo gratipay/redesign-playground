@@ -22,7 +22,7 @@
         <div id="body">
             <section class="head">
                 <ul>
-                    <li><a href=""><img src="/assets/gittip.svg"></a></li>
+                    <li><a href="">Gittip</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">FAQ</a></li>
                     <li><a href="">Blog</a></li>
@@ -33,11 +33,13 @@
             <section class="splash">
                 <div class="every-week">Give money to inspiring people <b>every week</b></div>
 
-                <button class="receive">I want to receive</button><button class="give">I want to give</button>
+                <button class="give">I want to give</button><button
+                    class="receive">I want to receive</button>
 
             </section>
             <section class="stats">
-                &#10029; <b>2,700</b> users exchanging <b>$12,200</b> per week.
+                <span class="star">&#10029;</span>
+                <b>2,700</b> users exchanging <b>$12,200</b> per week.
                 <a href="">See the stats &#9657;</a>
             </section>
             <section class="else">
