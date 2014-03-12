@@ -24,17 +24,16 @@
                 <ul>
                     <li><a href="">Gittip</a></li>
                     <li><a href="">About</a></li>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="">Help</a></li>
                     <li><a href="">More &#9663;</a></li>
                     <li><button>Sign in</button></li>
                 </ul>
             </section>
-            <section class="splash">
-                <div class="every-week">Give money to inspiring people <b>every week</b></div>
+            <section class="splash padded">
+                <h2>Give money every week</h2>
+                <h3>to people and teams you believe in</h3>
 
-                <button class="receive">I want to receive</button><button
-                    class="give">I want to give</button>
+                <button class="receive">I want to receive</button><button class="give">I want to give</button>
 
             </section>
             <section class="stats">
@@ -42,8 +41,35 @@
                 <b>2,700</b> users exchanging <b>$12,200</b> per week.
                 <a href="">See the stats &#9657;</a>
             </section>
-            <section class="else">
-                etc.
+            <section class="else padded">
+                <h2>Spotlight</h2>
+                <div class="member-spotlight">
+
+                    <img src="/assets/andyet.png">
+
+                    <p><a href="">andyet</a> <i>gave $1,040 last week, to 33
+                        recipients.</i></p>
+
+                    <p>&ldquo;We are making the world better by having as our goal that
+                    we do the work we love in a way we love with people we
+                    love.&rdquo; <a href="">Profile &#9657;</a></p>
+
+                </div>
+                <div class="member-spotlight">
+
+                    <img src="/assets/ashe.jpg">
+
+                    <p><a href="">ashedryden</a> <i>received $639 last week, from 186
+                        patrons.</i></p>
+
+                    <p>&ldquo;I am making the world better by facilitating
+                    conversations about diversity, inclusivity and social
+                    justice in the hopes of promoting empathy and equality
+                    within the tech community.&rdquo; <a href="">Profile
+                    &#9657;</a></p>
+
+                </div>
+
             </section>
         </div>
     </body>
