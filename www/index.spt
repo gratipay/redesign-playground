@@ -1,0 +1,53 @@
+[---]
+[---] text/html via jinja2
+<!doctype html>
+<html>
+    <head>
+
+        <title>Gittip</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+
+        <meta property="og:image" content="http://building.gittip.com/assets/logo.svg" />
+        <meta property="og:url" content="http://building.gittip.com/" />
+        <meta property="og:description" content="Documentation for people building Gittip." />
+        <meta property="og:title" content="Building Gittip" />
+
+        <link rel="stylesheet" type="text/css"
+              href="https://assets-gittipllc.netdna-ssl.com/reset.css">
+        <link rel="stylesheet" type="text/css"
+              href="/assets/playground.css">
+        <link rel="stylesheet" type="text/css"
+              href="//cloud.typography.com/6540672/654584/css/fonts.css" />
+
+    </head>
+    <body>
+        <div id="body">
+            <section class="head">
+                <ul>
+                    <li><a href=""><img src="/assets/gittip.svg"></a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">More &#9663;</a></li>
+                    <li><button>Sign in</button></li>
+                </ul>
+            </section>
+            <section class="splash">
+                <div class="every-week">Give money to inspiring people <b>every week</b></div>
+
+                <button class="receive">I want to receive</button><button class="give">I want to give</button>
+
+            </section>
+            <section class="stats">
+                &#10029; <b>2,700</b> users exchanging <b>$12,200</b> per week.
+                <a href="">See the stats &#9657;</a>
+            </section>
+            <section class="else">
+                etc.
+            </section>
+        </div>
+    </body>
+</html>

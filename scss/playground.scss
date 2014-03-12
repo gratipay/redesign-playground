@@ -1,0 +1,135 @@
+$green: #2A8F79;
+$brown: #614C3E;
+$white: #FFFFFF;
+$gold: #FFC300;
+$gray: #515151;
+$light-gray: #D7D7D7;
+
+body {
+    font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", serif;
+    font-weight: 200;
+}
+
+section {
+    padding: 20px;
+}
+
+a {
+    color: $green;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+button {
+    border: 2px solid $green;
+    color: $green;
+    border-radius: 4px;
+    background: white;
+    font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", serif;
+    font-size: 16px;
+    padding: 9px 20px;
+    margin: 0;
+
+    &:hover {
+        background: $green;
+        color: $white;
+        cursor: pointer;
+    }
+}
+
+.head {
+    overflow: auto;
+    width: 100%;
+
+    ul {
+        display: block;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    li {
+        float: left;
+        list-style: none;
+        padding-right: 30px;
+        line-height: 48px;
+        color: $gray;
+
+        img {
+            height: 48px;
+            display: inline;
+        }
+
+        a {
+            color: $gray;
+        }
+
+        &:last-child {
+            float: right;
+            padding-right: 100px;
+        }
+    }
+}
+
+.splash {
+    background: url("/assets/texture.jpg") no-repeat center;
+    clear: both;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    border: 1px solid $light-gray;
+    border-style: solid none;
+
+    .every-week {
+        font-size: 48px;
+        margin-bottom: 48px;
+    }
+
+    .inspiring {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 30px;
+        border-radius: 6px;
+        border-width: 3px;
+        padding: 14px 24px;
+
+        &.receive {
+            border-color: $brown;
+            background: $brown;
+            color: $gold;
+
+            &:hover {
+                background: $gold;
+                color: $brown;
+            }
+        }
+
+        &.give {
+            background: $green;
+            color: $white;
+            cursor: pointer;
+            margin-left: 30px;
+
+            &:hover {
+                background: $white;
+                color: $green;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.stats {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid $light-gray;
+}
+
+
+.else {
+    padding-top: 100px;
+    font-style: italic;
+    text-align: center;
+}
