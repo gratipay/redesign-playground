@@ -1,11 +1,11 @@
-$green: #339966;
-$brown: #AB4926;
+$green: #2A8F79;
+$brown: #614C3E;
 $white: #FFFFFF;
 $gold: #FFC300;
 $gray: #515151;
 $light-gray: #D7D7D7;
 
-$font: "Whitney SSm A", "Whitney SSm B", serif;
+$font: "Ideal Sans SSm A", "Ideal Sans SSm B", serif;
 
 body {
     font-family: $font;
@@ -30,7 +30,6 @@ button {
     background: white;
     font-family: $font;
     font-size: 16px;
-    font-weight: 500; 
     padding: 9px 20px;
     margin: 0;
 
@@ -61,7 +60,6 @@ button {
 
         a {
             color: $gray;
-            letter-spacing: -1px;
         }
 
         &:first-child a {
@@ -81,7 +79,7 @@ button {
 }
 
 .splash {
-    ackground: url("/assets/texture.jpg") no-repeat center;
+    background: url("/assets/texture.jpg") no-repeat center;
     clear: both;
     text-align: center;
     padding-top: 100px;
@@ -101,25 +99,22 @@ button {
         border-radius: 6px;
         border-width: 3px;
         padding: 14px 28px;
-        letter-spacing: -1px;
 
-        &.give {
+        &.receive {
             border-color: $brown;
             background: $brown;
-            color: $white;
-            cursor: pointer;
+            color: $gold;
 
             &:hover {
-                background: $white;
-                color: $brown;
-                cursor: pointer;
+                background: $brown;
+                color: $white;
             }
         }
 
-        &.receive {
+        &.give {
             border-color: $green;
-            background: $white;
-            color: $green;
+            background: $green;
+            color: $white;
             margin-left: 20px;
 
             &:hover {
