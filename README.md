@@ -1,8 +1,8 @@
 This is a playground for the [Gittip redesign project](). To play:
 
 ```
-$ git clone https://github.com/whit537/gittip-redesign-playground.git
-$ cd gittip-redesign-playground
+$ git clone https://github.com/gittip/redesign-playground.git
+$ cd redesign-playground
 $ make run
 [...]
 ```
