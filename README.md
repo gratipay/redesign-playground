@@ -10,7 +10,7 @@ $ make run
 Then: [http://localhost:9537/](http://localhost:9537/).
 
 You need `python2.7` and `make`, which means you need Xcode.
-```
+
 
 # Play!
 
