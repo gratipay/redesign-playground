@@ -18,3 +18,7 @@ You need `python2.7` and `make`, which means you need Xcode.
  - Layout is in `scss/playground.css`
 
 Edit and refresh (sorry, no live reload).
+
+Take screenshots and paste in tickets.
+
+Make branches for new directions.
