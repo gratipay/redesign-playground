@@ -22,7 +22,7 @@
         <div id="body">
             <section class="head">
                 <ul>
-                    <li><a href="">Gittip</a></li>
+                    <li><a href=""><img src="/assets/gittip.svg"></a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Help</a></li>
                     <li><a href="">More &#9663;</a></li>
@@ -37,9 +37,8 @@
 
             </section>
             <section class="stats">
-                <span class="star">&#10029;</span>
-                <b>2,700</b> members exchanging <b>$12,200</b> per week.
-                <a href="">See the stats &#9657;</a>
+                We have <b>2,700</b> active members exchanging <b>$12,200</b> per week.
+                <a href="">See more stats &#9657;</a>
             </section>
             <section class="members padded">
                 <h2>Members</h2>
@@ -49,8 +48,8 @@
                     <div class="profile">
                         <img src="/assets/andyet.png">
 
-                        <p><a href="">andyet</a> <i>gave $1,040 last week, to 33
-                            other members.</i></p>
+                        <p><a href="">andyet</a> <i>gave <b>$1,040</b> last
+                            week, to <b>33</b> other members.</i></p>
 
                         <p>&ldquo;We are making the world better by having as our goal that
                         we do the work we love in a way we love with people we
@@ -60,8 +59,8 @@
                     <div class="profile">
                         <img src="/assets/ashe.jpg">
 
-                        <p><a href="">ashedryden</a> <i>received $639 last week, from 186
-                            other members.</i></p>
+                        <p><a href="">ashedryden</a> <i>received <b>$639</b>
+                            last week, from <b>186</b> other members.</i></p>
 
                         <p>&ldquo;I am making the world better by facilitating
                         conversations about diversity, inclusivity and social

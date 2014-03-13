@@ -27,6 +27,11 @@ a {
     font-weight: 400;
 }
 
+b {
+    font-weight: 700;
+    font-style: normal;
+}
+
 h2 {
     text-align: center;
     font-weight: 700;
@@ -62,9 +67,6 @@ button {
     }
 }
 
-h2 {
-}
-
 .head {
     overflow: auto;
     width: 100%;
@@ -86,14 +88,19 @@ h2 {
             color: $brown;
         }
 
-        &:first-child a {
-            font-size: 27px;
-            font-weight: 700;
-            color: black;
-            background: url("/assets/heart-coin.svg") left center no-repeat;
-            background-size: 27px;
-            padding-left: 32px;
-            padding-right: 30px;
+        &:first-child {
+            padding-right: 0;
+        
+            a {
+                display: inline-block;
+                width: 200px;
+
+                img {
+                    height: 48px;
+                    position: relative;
+                    top: 16px;
+                }
+            }
         }
 
         &:last-child {
@@ -173,7 +180,7 @@ h2 {
         line-height: 24px;
         margin-right: 36px;
         letter-spacing: 0;
-        color: $gold;
+        color: $white;
         text-align: left;
     }
 
@@ -225,7 +232,7 @@ h2 {
         font-size: 24px;
         line-height: 24px;
         letter-spacing: 0;
-        color: $red;
+        color: $brown;
         text-align: left;
     }
 
