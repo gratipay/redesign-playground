@@ -29,11 +29,12 @@
                     <li><button>Sign in</button></li>
                 </ul>
             </section>
-            <section class="splash padded">
+            <section class="pitch padded">
                 <h2>Give money every week</h2>
                 <h3>to people and teams you believe in</h3>
 
-                <button class="receive">I want to receive</button><button class="give">I want to give</button>
+                <button class="receive">I want to receive</button><button
+                    class="give">I want to give</button>
 
             </section>
             <section class="stats">

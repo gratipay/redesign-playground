@@ -109,8 +109,7 @@ button {
     }
 }
 
-.splash {
-    clear: both;
+.pitch {
     text-align: center;
 
     border: 1px solid $light-gray;
@@ -130,27 +129,10 @@ button {
         padding: 14px 28px;
 
         &.receive {
-            border-color: $brown;
-            background: transparent;
-            color: $brown;
-
-            &:hover {
-                background: $brown;
-                color: $white;
-            }
         }
 
         &.give {
-            border-color: $green;
-            background: transparent;
-            color: $green;
-            
             margin-left: 20px;
-
-            &:hover {
-                background: $green;
-                color: $white;
-            }
         }
     }
 }
