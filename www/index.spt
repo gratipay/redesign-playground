@@ -41,9 +41,9 @@
                 <b>2,700</b> users exchanging <b>$12,200</b> per week.
                 <a href="">See the stats &#9657;</a>
             </section>
-            <section class="else padded">
+            <section class="spotlight padded">
                 <h2>Spotlight</h2>
-                <div class="member-spotlight">
+                <div class="a-spotlight">
 
                     <img src="/assets/andyet.png">
 
@@ -55,7 +55,7 @@
                     love.&rdquo; <a href="">Profile &#9657;</a></p>
 
                 </div>
-                <div class="member-spotlight">
+                <div class="a-spotlight">
 
                     <img src="/assets/ashe.jpg">
 
@@ -69,6 +69,79 @@
                     &#9657;</a></p>
 
                 </div>
+
+            </section>
+            <section class="communities padded">
+                <h2>Communities</h2>
+                <a href="/for/">Browse all &#9657;</a>
+
+                <ul>
+                    <li>
+                        <a href="/for/javascript/">JavaScript</a>
+                        <div class="fine">1464 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/python/">Python</a>
+                        <div class="fine">1117 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/node-js/">Node.js</a>
+                        <div class="fine">796 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/html5/">HTML5</a>
+                        <div class="fine">711 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/php/">PHP</a>
+                        <div class="fine">679 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/ruby/">Ruby</a>
+                        <div class="fine">658 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/drupal/">Drupal</a>
+                        <div class="fine">548 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/perl/">Perl</a>
+                        <div class="fine">470 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/jquery/">jQuery</a>
+                        <div class="fine">449 members</div>
+                    </li>
+
+                    <li>
+                        <a href="/for/open-source/">Open Source</a>
+                        <div class="fine">438 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/vim/">Vim</a>
+                        <div class="fine">361 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/ruby-on-rails/">Ruby on Rails</a>
+                        <div class="fine">359 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/korea/">Korea</a>
+                        <div class="fine">358 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/django/">Django</a>
+                        <div class="fine">321 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/wordpress/">WordPress</a>
+                        <div class="fine">317 members</div>
+                    </li>
+                    <li>
+                        <a href="/for/golang/">golang</a>
+                        <div class="fine">308 members</div>
+                    </li>
+                </ul>
 
             </section>
         </div>
