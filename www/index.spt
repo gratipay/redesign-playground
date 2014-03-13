@@ -38,42 +38,44 @@
             </section>
             <section class="stats">
                 <span class="star">&#10029;</span>
-                <b>2,700</b> users exchanging <b>$12,200</b> per week.
+                <b>2,700</b> members exchanging <b>$12,200</b> per week.
                 <a href="">See the stats &#9657;</a>
             </section>
-            <section class="spotlight padded">
-                <h2>Spotlight</h2>
-                <div class="a-spotlight">
+            <section class="members padded">
+                <h2>Members</h2>
+                <a href="">Find more &#9657;</a>
+                <div class="profiles">
 
-                    <img src="/assets/andyet.png">
+                    <div class="profile">
+                        <img src="/assets/andyet.png">
 
-                    <p><a href="">andyet</a> <i>gave $1,040 last week, to 33
-                        recipients.</i></p>
+                        <p><a href="">andyet</a> <i>gave $1,040 last week, to 33
+                            recipients.</i></p>
 
-                    <p>&ldquo;We are making the world better by having as our goal that
-                    we do the work we love in a way we love with people we
-                    love.&rdquo; <a href="">Profile &#9657;</a></p>
+                        <p>&ldquo;We are making the world better by having as our goal that
+                        we do the work we love in a way we love with people we
+                        love.&rdquo; <a href="">Profile &#9657;</a></p>
+                    </div>
 
-                </div>
-                <div class="a-spotlight">
+                    <div class="profile">
+                        <img src="/assets/ashe.jpg">
 
-                    <img src="/assets/ashe.jpg">
+                        <p><a href="">ashedryden</a> <i>received $639 last week, from 186
+                            patrons.</i></p>
 
-                    <p><a href="">ashedryden</a> <i>received $639 last week, from 186
-                        patrons.</i></p>
-
-                    <p>&ldquo;I am making the world better by facilitating
-                    conversations about diversity, inclusivity and social
-                    justice in the hopes of promoting empathy and equality
-                    within the tech community.&rdquo; <a href="">Profile
-                    &#9657;</a></p>
+                        <p>&ldquo;I am making the world better by facilitating
+                        conversations about diversity, inclusivity and social
+                        justice in the hopes of promoting empathy and equality
+                        within the tech community.&rdquo; <a href="">Profile
+                        &#9657;</a></p>
+                    </div>
 
                 </div>
 
             </section>
             <section class="communities padded">
                 <h2>Communities</h2>
-                <a href="/for/">Browse all &#9657;</a>
+                <a href="/for/">Find more &#9657;</a>
 
                 <ul>
                     <li>

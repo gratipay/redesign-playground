@@ -163,7 +163,7 @@ h2 {
 }
 
 
-.spotlight {
+.members {
     background: $brown;
     color: $white;
     padding: 30px 5%;
@@ -174,21 +174,28 @@ h2 {
         line-height: 24px;
         margin-right: 36px;
         letter-spacing: 0;
-        float: left;
         color: $gold;
-        position: absolute;
-        top: 100px;
-        left: 5%;
+        text-align: left;
     }
 
-    .a-spotlight {
+    a {
+        color: $gold;
+        font-weight: 700;
+    }
+
+    .profiles {
         padding-left: 200px;
         clear: both;
-        padding-bottom: 30px;
-        overflow: auto;
+        margin-top: -58px;
 
-        &:last-child {
-            margin-bottom: 0;
+        .profile {
+            overflow: auto;
+            width: 100%;
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
 
         img {
@@ -229,16 +236,19 @@ h2 {
     }
 
     ul {
-        position: relative;
         clear: both;
         padding: 0 0 0 200px;
-        top: -58px;
+        margin-top: -58px;
         overflow: auto;
 
         li {
             width: 25%;
             float: left;
             padding-bottom: 12px;
+
+            .fine {
+                color: $brown;
+            }
         }
     }
 }
