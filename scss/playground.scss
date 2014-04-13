@@ -1,14 +1,3 @@
-$green: #2A8F79;
-$brown: #614C3E;
-$white: #FFFFFF;
-$gold: #FFC300;
-$gray: #515151;
-$light-gray: #D7D7D7;
-$red: #e90000;
-$pink: #ffcbc2;
-
-$font: "Ideal Sans SSm A", "Ideal Sans SSm B", serif;
-
 body {
     font-family: $font;
     font-weight: 200;
@@ -90,7 +79,7 @@ button {
 
         &:first-child {
             padding-right: 0;
-        
+
             a {
                 display: inline-block;
                 width: 200px;

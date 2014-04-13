@@ -11,9 +11,7 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" type="text/css"
-              href="https://assets-gittipllc.netdna-ssl.com/reset.css">
-        <link rel="stylesheet" type="text/css"
-              href="/assets/playground.css">
+              href="/assets/gittip.css">
         <link rel="stylesheet" type="text/css"
               href="//cloud.typography.com/6540672/654584/css/fonts.css" />
 
